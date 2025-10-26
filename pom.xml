@@ -12,6 +12,7 @@
     <modules>
         <module>bitstream-core</module>
         <module>bitstream-reader</module>
+        <module>bitstream-writer</module>
     </modules>
 
     <properties>
