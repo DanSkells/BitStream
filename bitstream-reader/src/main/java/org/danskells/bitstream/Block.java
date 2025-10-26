@@ -1,4 +1,5 @@
 package org.danskells.bitstream;
+
 /**
  * A Block represents a segment of a BitContainer.
  * It's a structure that holds a collection of bits within a specific range.
@@ -6,5 +7,5 @@ package org.danskells.bitstream;
  */
 public interface Block {
 
-    StreamNode getStreamNode();
+  StreamNode getStreamNode();
 }
