@@ -1,6 +1,6 @@
-package org.danskells.bitstream.streamnode;
+package org.danskells.bitstream.read.streamnode;
 
-import org.danskells.bitstream.StreamNode;
+import org.danskells.bitstream.read.StreamNode;
 
 import java.util.Arrays;
 

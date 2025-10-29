@@ -10,7 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>bitstream-core</module>
+        <module>bitstream-common</module>
+        <module>bitstream-test</module>
         <module>bitstream-reader</module>
         <module>bitstream-writer</module>
     </modules>
@@ -28,6 +29,17 @@
                 <artifactId>junit-jupiter</artifactId>
                 <version>5.10.0</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>2.0.9</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>2.0.9</version>
+                <scope>runtime</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

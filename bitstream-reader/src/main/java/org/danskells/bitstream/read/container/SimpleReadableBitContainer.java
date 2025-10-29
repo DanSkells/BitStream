@@ -1,9 +1,9 @@
-package org.danskells.bitstream.container;
+package org.danskells.bitstream.read.container;
 
-import org.danskells.bitstream.BitContainerStream;
-import org.danskells.bitstream.Block;
-import org.danskells.bitstream.BitContainer;
-import org.danskells.bitstream.StreamNode;
+import org.danskells.bitstream.read.BitContainerStream;
+import org.danskells.bitstream.read.Block;
+import org.danskells.bitstream.read.BitContainer;
+import org.danskells.bitstream.read.StreamNode;
 
 import java.util.Arrays;
 

@@ -1,7 +1,7 @@
-package org.danskells.bitstream.block;
+package org.danskells.bitstream.read.block;
 
-import org.danskells.bitstream.Block;
-import org.danskells.bitstream.StreamNode;
+import org.danskells.bitstream.read.Block;
+import org.danskells.bitstream.read.StreamNode;
 
 import java.util.BitSet;
 
