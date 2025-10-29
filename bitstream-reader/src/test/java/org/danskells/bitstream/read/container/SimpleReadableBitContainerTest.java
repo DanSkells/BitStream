@@ -1,16 +1,16 @@
-package org.danskells.bitstream.container;
+package org.danskells.bitstream.read.container;
 
-import org.danskells.bitstream.Block;
-import org.danskells.bitstream.block.BitSetBlockTest;
-import org.danskells.bitstream.block.BitmapBlock;
+import org.danskells.bitstream.read.Block;
+import org.danskells.bitstream.read.block.BitSetBlockTest;
+import org.danskells.bitstream.read.block.BitmapBlock;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
+import static org.danskells.bitstream.read.BitContainerStream.END_OF_STREAM;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.danskells.bitstream.BitContainerStream.END_OF_STREAM;
 
 
 public class SimpleReadableBitContainerTest {

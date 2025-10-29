@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>bitstream-core</artifactId>
+    <artifactId>bitstream-common</artifactId>
 
     <dependencies>
         <dependency>

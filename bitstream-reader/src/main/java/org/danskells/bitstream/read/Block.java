@@ -1,4 +1,4 @@
-package org.danskells.bitstream;
+package org.danskells.bitstream.read;
 
 /**
  * A Block represents a segment of a BitContainer.
